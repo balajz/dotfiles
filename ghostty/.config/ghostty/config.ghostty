@@ -1,0 +1,49 @@
+theme = catppuccin-mocha.conf
+
+# tmux integration - send save-buffer command
+keybind = cmd+s=text:\x01\x73
+
+# tmux prefix to toggle zoom on current pane
+keybind = cmd+b=text:\x01\x7a
+
+# aesthetics
+background-opacity = 0.85
+background-blur = 20
+
+# typography
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 16
+background-blur-radius = 20
+macos-option-as-alt = true
+font-thicken = true
+font-thicken-strength = 1
+adjust-cell-height = 1
+font-feature = calt
+font-feature = liga
+
+# --- Window & Splits ---
+window-padding-x = 4
+window-padding-y = 4
+window-decoration = true
+window-padding-balance = true
+macos-titlebar-style = hidden
+window-padding-color = extend
+unfocused-split-opacity = 0.85
+split-divider-color = #585b70
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = false
+
+# --- Shell integration ---
+shell-integration = zsh
+shell-integration-features = cursor,sudo,title,path
+
+# --- Clipboard & Mouse ---
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+
+# --- Link detection ---
+link-url = true
