@@ -7,8 +7,8 @@ keybind = cmd+s=text:\x01\x73
 keybind = cmd+b=text:\x01\x7a
 
 # aesthetics
-background-opacity = 0.85
-background-blur = 20
+background-opacity = 0.75
+background-blur = 15
 
 # typography
 font-family = JetBrainsMono Nerd Font Mono
@@ -30,6 +30,25 @@ macos-titlebar-style = hidden
 window-padding-color = extend
 unfocused-split-opacity = 0.85
 split-divider-color = #585b70
+
+# --- Pane Navigation (Option + Vim h/j/k/l) ---
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+l=goto_split:right
+
+# --- Pane Splitting & Management ---
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+z=toggle_split_zoom
+keybind = cmd+e=equalize_splits
+keybind = cmd+w=close_surface
+
+# --- Pane Resizing (Option + Shift + Vim h/j/k/l) ---
+keybind = alt+shift+h=resize_split:left,20
+keybind = alt+shift+j=resize_split:down,20
+keybind = alt+shift+k=resize_split:up,20
+keybind = alt+shift+l=resize_split:right,20
 
 # --- Cursor ---
 cursor-style = block
