@@ -1,0 +1,53 @@
+{
+  "$schema" : "schema.json",
+  "appExceptions" : [
+    {
+      "bundleID" : "com.apple.finder",
+      "hide" : "whenNoWindows",
+      "ignore" : "never"
+    }
+  ],
+  "applicationsOnly" : true,
+  "commitSoundName" : "Frog",
+  "fontFace" : "system",
+  "fontScale" : "standard",
+  "gridMaxColumns" : 3,
+  "gridSingleRow" : false,
+  "hapticOnCommit" : false,
+  "hideMenuBarIcon" : true,
+  "layoutMode" : "iconDock",
+  "mouseClickSelectionEnabled" : false,
+  "mouseHoverSelectionEnabled" : true,
+  "nextScopedShortcutID" : 6,
+  "oneHandLetterHints" : false,
+  "panelCornerRadius" : 12,
+  "panelOpacity" : 100,
+  "panelScalePercent" : 115,
+  "scopedShortcutList" : [
+    {
+      "id" : "2",
+      "name" : "scopedSwitch.2",
+      "scope" : "allAppsCurrentSpace"
+    },
+    {
+      "id" : "3",
+      "name" : "scopedSwitch.3",
+      "scope" : "allAppsAllSpaces"
+    }
+  ],
+  "searchDismissMode" : "holdModifier",
+  "selectionColor" : "purple",
+  "shortcutOverrides" : [
+    {
+      "applicationsOnly" : "false",
+      "stayOpenOnQuickTap" : "true",
+      "stayOpenOnRelease" : "true",
+      "target" : "scoped.3"
+    }
+  ],
+  "showApplicationNames" : false,
+  "showWindowStatusIcons" : false,
+  "showWindowTitleLabel" : true,
+  "soundOnCommit" : false,
+  "vimNavigationEnabled" : true
+}
